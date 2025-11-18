@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+        <head>
+            <!--Metas-->
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <meta name="author" content="Ivan Salazar">
+            <meta name="description" content="Landing Page Restaurant Rìo Tinto con formulario interactivo con Bootstrap">
+            <meta name="keywords" content="Html, CSS, JS y Bootstrap ">
+            <!--Link locales, tipografías, CSS-->
+            <!-- Bootstrap CSS -->
+            <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+            <!-- Tipografias Raleway 400 y 700 -->
+            <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+            <!--Link de CSS-->
+            <link rel="stylesheet" href="assets/css/style.css">
+            <!--Link Iconos-->
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+            integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" /><!--Se usará a futuro-->
+            <!--Link favicon-->
+            <link rel="shortcut icon" type="image/png" href="favicon.jpeg">
+            <!--Titulos-->
+            <title>Restaurant Rio Tinto</title>
+        </head>
+    
+
+
+        <body>
+            
+            <!--Inicio de Nav ; img--->
+            <nav class="navbar navbar-expand-lg navbar-dark bg-micolor">
+                <div class="container px-5 py-2">
+
+                    <a class="navbar-brand" href="#">
+                        <img src="assets/img/riotinto2.jpeg" alt="logo-nav" class="logo-nav d-inline-block align-text-top">
+                    </a>
+
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mb-2 mb-lg-0  ms-auto">
+
+                            <!-- Enlaces para smooth Scroll -->
+                            <li class="nav-item">
+                                <a class="nav-link mi-navbar-text" href="#sobre-nosotros">Sobre Nosotros</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link mi-navbar-text" href="#menu">Menú</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link mi-navbar-text" href="#contacto">Contacto</a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <!--Fin de Nav-->
+
+
+            <!--Inicio de Header; H1 (título), p  -->
+            <header class="container-fluid text-end px-auto py-5">
+                <div class="row py-5 me-2">
+                    <div id="inicio" class="col-12 col-md-6 text-white py-5 ms-auto me-5">
+                        <h1 class="fw-bold text-justify display-4">Restaurant Río Tinto</h1>
+                        <br><br>
+                        <p class="fw-bold">“Descubre Chile en cada plato: tradición, sabor y experiencia inolvidable.”</p>
+                    </div>
+                </div>
+            </header>
+            <!--Fin de Header-->
+
+
+            <!--Inicio Section 1 ; Sobre Nosotros-->
+            <section id="sobre-nosotros" class="text-center text-black p-4 px-5 py-5">
+                <div class="row py-5">
+                    <h2 class="display-4 fw-bold"> Sobre Nosotros</h2>
+                    <p>Nuestro restaurant nació hace más de 15 años como el sueño de una familia apasionada por la cocina chilena. Inspirados en las recetas tradicionales transmitidas de generación en generación, preparamos con dedicación comidas típicas como empanadas, pastel de choclo, cazuela de vacuno y humitas. Cada preparación refleja el cariño, la historia y el sabor de nuestras raíces. Hoy seguimos compartiendo estas tradiciones con quienes nos visitan, ofreciendo una experiencia auténtica que celebra lo mejor de Chile.</p>
+                </div>
+            </section>
+            <!--Fin de Section 1-->
+
+            
+            <!--Inicio section Carrusel personalizado-->
+            <section class="pizza-carousel">
+                <div class="container d-none d-lg-block mt-5">
+                    
+                    <h3 class="display-4 fw-bold text-center mb-4"> Galería</h3>
+                    <div id="customCarousel" class="carousel-wrapper">
+                        
+                        <div class="carousel-track">
+
+                            <div class="carousel-group">
+                                <img src="assets/img/foto18.jpg" alt="porotos">
+                                <img src="assets/img/foto7.jpg" alt="lomo a lo pobre">
+                                <img src="assets/img/foto13.jpeg" alt="pastel de choclo">
+                                <img src="assets/img/foto9.jpg" alt="cazuela de vacuno">
+                            </div>
+
+                            <div class="carousel-group">
+                                <img src="assets/img/foto17.png" alt="mix picadillo chileno">
+                                <img src="assets/img/foto6.jpg" alt="cazuela de ave">
+                                <img src="assets/img/foto19.jpg" alt="empanadas">
+                                <img src="assets/img/foto20.jpg" alt="humitas">
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <hr class="my-5">
+                </div>
+            </section>
+            <!-- FIN Carrusel personalizado -->
+
+
+
+            <!--Inicio de Section 2 ; Menú-->
+            <section id="menu" class="bg-micolor py-5">
+                <div class="row py-3">
+                    <h2 class="display-4 text-white text-center fw-bold">Menú Destacado</h2>
+                </div>
+
+                <div class="row px-5">
+
+                    <!--Card 1-->
+                    <div class="col-12 col-sm-12 col-md-4 py-5">
+                        <div class="card h-100">
+                            <img class="card-img-top imgcarta img-fluid rounded-start" src="assets/img/foto14.jpg" alt="Mariscos">
+                            <div class="card-body">
+                                <h4 class="card-title fw-bold my-2">Mariscos</h4>
+                                <hr>
+                                <p class="card-text my-4">Frescura en cada bocado. Los mariscos ofrecen sabores intensos y variadas texturas, mientras que los pescados resaltan su delicado y suave sabor.</p>
+                                <p class="d-inline-block text-success fs-4 fw-normal"> $12.990 </p>
+                                <button class="btn btn-outline-info fs-5">Ver más</button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!--Card 2-->
+                    <div class="col-12 col-sm-12 col-md-4 py-5">
+                        <div class="card h-100">
+                            <img class="card-img-top imgcarta img-fluid rounded-start" src="assets/img/foto15.jpg" alt="Carnes">
+                            <div class="card-body">
+                                <h4 class="card-title fw-bold my-2">Carnes</h4>
+                                <hr>
+                                <p class="card-text my-4">Jugosas y tiernas, con sabores ahumados o a la parrilla, perfectas en guisos, filetes o asados tradicionales de la cocina chilena.</p>
+                                <p class="d-inline-block text-success fs-4 fw-normal"> $15.990 </p>   
+                                <button class="btn btn-outline-info fs-5">Ver más</button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!--Card 3-->
+                    <div class="col-12 col-sm-12 col-md-4 py-5">
+                        <div class="card h-100">
+                            <img class="card-img-top imgcarta img-fluid rounded-start" src="assets/img/foto22.jpeg" alt="Sandwich">
+                            <div class="card-body">
+                                <h4 class="card-title fw-bold my-2">Sandwich</h4>
+                                <hr>
+                                <p class="card-text my-4">Crujientes panes y rellenos variados, combinando sabores frescos, quesos y carnes, ideales para un almuerzo rápido y delicioso.</p>
+                                <p class="d-inline-block text-success fs-4 fw-normal"> $9.990 </p>
+                                <button class="btn btn-outline-info fs-5">Ver más</button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+            <!--Fin de Section 2-->
+
+
+            <!-- inicio section 3 Formulario de Contacto-->
+            <section id="contacto" class="text-center text-black p-4 px-5 py-5 bg-micolorform">
+                <div class="row py-5">
+                    <h2 class="display-4 fw-bold">Contáctame</h2>
+                    <p>Rellena el formulario de Contacto o Reserva  y te responderé a la brevedad.</p>
+                </div>
+
+                <div class="row">
+                    <div class="col px-2">
+
+                        <form id="formContacto">
+                            <div class="mb-3 text-start">
+                                <label for="nombre" class="form-label">Nombre</label>
+                                <input type="text" class="form-control" id="nombre" placeholder="Nombre">
+                            </div>
+                            <div class="mb-3 text-start">
+                                <label for="email" class="form-label">Email</label>
+                                <input type="email" class="form-control" id="email" placeholder="Correo Electrónico">
+                            </div>
+                            <div class="mb-3 text-start">
+                                <label for="fecha" class="form-label">Fecha</label>
+                                <input type="date" class="form-control" id="fecha" placeholder="Fecha">
+                            </div>
+                            <div class="mb-3 text-start">
+                                <label for="npersonas" class="form-label">N° Personas</label>
+                                <input type="number" class="form-control" id="npersonas" placeholder="N° de Personas">
+                            </div>
+                            
+                            <div class="mb-3 text-start">
+                                <label for="mensaje" class="form-label">Mensaje</label>
+                                <textarea class="form-control" id="mensaje" rows="3" placeholder="Escribe aquí tu mensaje"></textarea>
+                            </div>
+
+                            <div class="mb-3 text-end">
+                                <button type="submit" class="btn btn-lg btn-info">Enviar</button>
+                            </div>
+                        </form>
+
+                        <div id="mensajeResultado" class="mt-3 fw-bold"></div>
+
+                    </div>
+                </div>
+            </section>
+            <!--Fin section 3-->
+            
+            
+            <!--Inicio de Footer-->
+            <footer class="bg-black text-center text-white fs-4 p-3 fw-light">
+                <p> De Lunes a Domingo de 12:00 am a 22:00 pm  |  Sazié #234 Santiago Centro  |  Fono: +56 023456789</p>
+            </footer>
+            <!--Fin de Footer-->
+
+
+            <!-- JQuery JS -->
+            <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+            <!-- Script de Bootstrap -->
+            <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js" integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y" crossorigin="anonymous"></script>
+
+            <!-- JS Principal -->
+            <script src="assets/js/script.js"></script>
+
+        </body>
+
+</html>

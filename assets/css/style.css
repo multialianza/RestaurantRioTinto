@@ -1,0 +1,71 @@
+* {
+    font-family: 'Raleway', sans-serif;
+}
+
+
+.logo-nav {
+    width: 90px;   /* Ajusta el tamaño deseado del logo en nav */
+    height: auto;  /* Mantiene la proporción */
+}
+
+
+
+
+.bg-micolor {
+    background-color: #e94c0f;
+}
+
+.bg-micolorform {
+    background-color: #86868f;
+}
+
+
+
+
+.mi-navbar-text {
+    color: white !important;
+    font-size: 20px;
+}
+
+header {
+    background-image: url("../img/foto-secundaria3.jpg");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+}
+
+.imgcarta{
+    max-height: 250px;
+}
+
+
+/* =============================
+CARRUSEL PERSONALIZADO
+   ============================= */
+
+/* Contenedor que mantiene el ancho del carrusel */
+.carousel-wrapper {
+    width: 100%;
+    overflow: hidden; /* Oculta las imágenes que salen del área visible */
+}
+
+/* Pista que se desplazará horizontalmente */
+.carousel-track {
+    display: flex;
+    transition: transform 0.8s ease-in-out; /* Animación del movimiento */
+}
+
+/* Cada grupo contiene 4 imágenes */
+.carousel-group {
+    display: flex;
+    min-width: 100%; /* Cada grupo ocupa todo el ancho del contenedor */
+    justify-content: space-between;
+}
+
+.carousel-group img {
+    width: 23%;            /* 4 imágenes por fila */
+    border-radius: 10px;   /* Estética */
+    object-fit: cover;
+}
+
+
